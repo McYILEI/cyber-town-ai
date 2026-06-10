@@ -1,0 +1,32 @@
+# ---- Secrets ----
+# 真实 API Key 等敏感信息，绝不上传
+backend/.env
+**/.env
+!**/.env.example
+
+# ---- 大型本地工具 / 引擎 ----
+# Godot 引擎二进制超过 GitHub 100MB 限制，请自行下载
+_tools/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- 运行时产物 ----
+**/logs/
+**/memory/
+**/tool-output/
+
+# ---- Godot ----
+.godot/
+/android/
+
+# ---- OS / 编辑器 ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
